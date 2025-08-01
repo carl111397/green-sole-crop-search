@@ -8,19 +8,24 @@ export default function CropSearchAssistant() {
   const [aiSuggestion, setAiSuggestion] = useState('');
 
   useEffect(() => {
-    // Filter knowledgebase resources based on search query
     const results = knowledgeBase.filter(resource =>
       resource.name.toLowerCase().includes(query.toLowerCase())
     );
     setFilteredResources(results);
 
-    // AI Suggestion Logic (Mocked)
-    if (query.toLowerCase().includes('maize')) {
-      setAiSuggestion('Tip: For Maize, consider nitrogen fertilization to boost yields by 60%.');
-    } else if (query.toLowerCase().includes('soil')) {
-      setAiSuggestion('AI Suggests: Conduct a soil pH test before applying fertilizers.');
-    } else if (query.toLowerCase().includes('drought')) {
-      setAiSuggestion('AI Suggests: Drought-resistant sorghum thrives in LM 4-5 zones.');
+    // Call AI Backend only if query is not empty
+    if (query.trim() !== '') {
+      fetch('http://localhost:5000/api/assistant', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query })
+      })
+      .then(response => response.json())
+      .then(data => setAiSuggestion(data.suggestion))
+      .catch(err => {
+        console.error('AI API Error:', err);
+        setAiSuggestion('');
+      });
     } else {
       setAiSuggestion('');
     }
