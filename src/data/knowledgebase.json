@@ -1,17 +1,42 @@
 [
   {
     "name": "Maize Farming Guide",
-    "info": "Best grown in AEZ LH1-LH3. Requires 500-700mm rainfall. Ideal pH: 5.5-7.0. Yield: 20-40 bags/acre with proper management.",
-    "category": "Crops"
+    "info": "Optimal in Agro-Ecological Zones LH 1-3, UM 1-4, LM 1-4. Recommended nitrogen fertilization increases yields by 60%."
   },
   {
-    "name": "Drip Irrigation Kit",
-    "info": "Water-efficient system for arid areas. Covers 1/4 acre. Includes filters, tubing, and emitters. Reduces water use by 40%.",
-    "category": "Equipment"
+    "name": "Drought-resistant Sorghum",
+    "info": "Grows best in UM 4-5 and LM 4-5 zones. Resilient to low rainfall and requires early planting for optimal yields."
   },
   {
-    "name": "Compost Preparation",
-    "info": "Layer green (nitrogen) and brown (carbon) materials. Turn every 2 weeks. Ready in 2-3 months. Improves soil structure.",
-    "category": "Soil Management"
+    "name": "Tomato Greenhouse Kit",
+    "info": "Ideal for highland regions with consistent temperature control. Enhances tomato yields by 3x compared to open-field farming."
+  },
+  {
+    "name": "Organic Compost Fertilizer",
+    "info": "Recommended for farms with low organic matter content. Improves soil structure and enhances water retention."
+  },
+  {
+    "name": "Soil Testing Kit",
+    "info": "Essential for determining nutrient deficiencies and pH imbalances. Advisable before applying any fertilizer."
+  },
+  {
+    "name": "Aquaponic System Blueprint",
+    "info": "Combines fish farming with hydroponic vegetable production. Suitable for smallholder urban farmers."
+  },
+  {
+    "name": "Drone Spraying Services",
+    "info": "Efficient for large farms, reducing pesticide use by up to 30% while ensuring even application."
+  },
+  {
+    "name": "Sweet Potato Varieties Guide",
+    "info": "KSP 1 and KSP 2 are recommended for regions with moderate rainfall (UM 3-5)."
+  },
+  {
+    "name": "Lime Application Advisory",
+    "info": "Lime corrects acidic soils prevalent in LM 4-5 zones, enabling better nutrient absorption."
+  },
+  {
+    "name": "Water Harvesting Techniques",
+    "info": "Critical for semi-arid areas. Techniques include zai pits, water pans, and contour bunds."
   }
 ]
