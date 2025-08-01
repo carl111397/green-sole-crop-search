@@ -1,14 +1,17 @@
 [
   {
     "name": "Maize Farming Guide",
-    "info": "Maize thrives in Agro-Ecological Zones LH 1-3, UM 1-4, LM 1-4 with proper fertilization."
+    "info": "Best grown in AEZ LH1-LH3. Requires 500-700mm rainfall. Ideal pH: 5.5-7.0. Yield: 20-40 bags/acre with proper management.",
+    "category": "Crops"
   },
   {
-    "name": "Drought-resistant Sorghum",
-    "info": "Ideal for semi-arid zones like UM 4-5, LM 4-5. Timely planting is key to success."
+    "name": "Drip Irrigation Kit",
+    "info": "Water-efficient system for arid areas. Covers 1/4 acre. Includes filters, tubing, and emitters. Reduces water use by 40%.",
+    "category": "Equipment"
   },
   {
-    "name": "Soil Testing Kit",
-    "info": "Essential for determining soil fertility variations before fertilizer application."
+    "name": "Compost Preparation",
+    "info": "Layer green (nitrogen) and brown (carbon) materials. Turn every 2 weeks. Ready in 2-3 months. Improves soil structure.",
+    "category": "Soil Management"
   }
 ]
